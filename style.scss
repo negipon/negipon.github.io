@@ -250,17 +250,12 @@ nav {
 //
 // .main
 //
-.posts {
-	text-align: center;
-}
+
 .posts > .post {
 	border-bottom: 1px solid $lightGray;
-	display: inline-block;
 	padding-bottom: 2em;
 	padding-left: 60px
 	position: relative;
-	vertical-align: top;
-	width: 40% 
 }
 
 .posts > .post:last-child {
