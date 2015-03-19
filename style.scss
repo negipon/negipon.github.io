@@ -126,6 +126,13 @@ img {
 	max-width: 60px;
 	position: absolute;
 	top: 0;
+	
+	&:after {
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
 }
 // Specify the color of the selection
 ::-moz-selection {
