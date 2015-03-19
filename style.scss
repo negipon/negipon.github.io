@@ -126,15 +126,6 @@ img {
 	max-width: 60px;
 	position: absolute;
 	top: 0;
-	
-	&:after {
-		content: "";
-		border-right: 1px solid #ccc;
-		height: 100em;
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
 }
 // Specify the color of the selection
 ::-moz-selection {
@@ -269,6 +260,7 @@ nav {
 	padding-left: 60px
 	position: relative;
 	vertical-align: top;
+	width: 40% 
 }
 
 .posts > .post:last-child {
