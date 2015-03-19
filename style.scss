@@ -116,10 +116,26 @@ img {
 }
 
 .date {
+	font-family: $ubuntu;
 	font-style: italic;
 	color: $gray;
 }
-
+.post-date {
+	font-family: $ubuntu;
+	left: 0;
+	max-width: 60px;
+	position: absolute;
+	top: 0;
+	
+	&:after {
+		content: "";
+		border-right: 1px solid #ccc;
+		height: 100em;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+}
 // Specify the color of the selection
 ::-moz-selection {
 	color: $black;
@@ -245,8 +261,10 @@ nav {
 //
 
 .posts > .post {
-	padding-bottom: 2em;
 	border-bottom: 1px solid $lightGray;
+	padding-bottom: 2em;
+	padding-left: 60px
+	position: relative;
 }
 
 .posts > .post:last-child {
