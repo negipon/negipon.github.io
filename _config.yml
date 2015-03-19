@@ -74,4 +74,4 @@ exclude:
     - README.md
 
 paginate: 5
-paginate_path: "/page/page:num/"
+paginate_path: "/page/:num/"
