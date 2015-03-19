@@ -126,7 +126,7 @@ img {
 	left: 0;
 	max-width: 60px;
 	position: absolute;
-	top: 0;
+	top: 1em;
 	
 	&:after {
 		border-right: 1px solid #ccc;
@@ -265,11 +265,11 @@ nav {
 .posts > .post {
 	border-top: 1px solid $lightGray;
 	display: inline-block;
-	padding-top: 1em;
 	padding-left: 60px;
 	position: relative;
+	text-align: left;
 	vertical-align: top;
-	width: 45%;
+	width: 49%;
 	
 	@include mobile {
 		display: block;
