@@ -126,13 +126,6 @@ img {
 	max-width: 60px;
 	position: absolute;
 	top: 0;
-	
-	&:after {
-		content: "";
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
 }
 // Specify the color of the selection
 ::-moz-selection {
@@ -179,7 +172,6 @@ img {
 
 .site-avatar {
 	float: left;
-	width: 70px;
 	height: 70px;
 	margin-right: 15px;
 
@@ -257,12 +249,17 @@ nav {
 //
 // .main
 //
-
+.posts {
+	text-align: center;
+}
 .posts > .post {
 	border-bottom: 1px solid $lightGray;
+	display: inline-block;
 	padding-bottom: 2em;
-	padding-left: 60px
+	padding-left: 60px;
 	position: relative;
+	vertical-align: top;
+	width: 40% 
 }
 
 .posts > .post:last-child {
